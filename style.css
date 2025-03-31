@@ -1,0 +1,52 @@
+.flex-grid {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+.control-panel > * {
+    box-sizing: border-box;
+    width: 50%;
+    flex: 1;
+    border: 2px solid #FF6F0F;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.input-size {
+    color: #FF6F0F;
+}
+.input-size:focus {
+    color: #FF6F0F;
+    outline: none;
+}
+.btn-size {
+    background-color: #FF6F0F;
+    color: #FFF;
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-between;
+    border: 2px solid #FF6F0F;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+.element {
+    aspect-ratio: 1 / 1;
+    flex: 1;
+}
